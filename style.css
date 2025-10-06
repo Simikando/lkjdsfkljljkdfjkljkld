@@ -1,0 +1,107 @@
+/* Global settings */
+*{
+    font-family: 'Old Standard TT';
+    background-color: #FFF2EF;
+}
+
+/* Header and menu */
+header{
+    background-color: #FFDBB6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header img{
+    width: 150px;
+    height: auto;
+    padding: 15px 50px 15px 0;
+    background-color: #FFDBB6;
+
+}
+header h1{
+    padding:  20px 0 20px 0;
+    text-align: center;
+    margin: 0;
+    font-size: 35px;
+    background-color: #FFDBB6;
+}
+ul{
+    list-style: none;
+    background-color: #FFDBB6;
+}
+ul li{
+    background-color: #FFDBB6;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-size: 20px;
+}
+ul li a:hover,
+.nav-img:hover{
+    color: #50db6f;
+    fill: #50db6f;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    margin: 0px 10px 0 0 ;
+    font-size: 20px;
+}
+.nav-img{
+    width: 50px;
+    background:none;
+}
+
+/* Aside text */
+aside{
+    width: 20%;
+    background-color: #F7A5A5;
+    padding: 25px 25px 25px 25px;
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* Footer and socials */
+footer{
+    text-align: center;
+    font-size: 22px;
+    background-color: #5D688A;
+    padding: 20px 0 20px 0;
+    color: #f8f8f8;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright{
+    margin-left: 20px;
+}
+.socials{
+    margin-right: 20px;
+}
+.copyright, .e_mail, .socials{
+    background: none;
+}
+.e_mail a{
+    text-decoration: none;
+    color: #f8f8f8;
+}
+.facebook svg{
+    height: 50px;
+    width: 50px;
+    background: none;
+}
+.facebook svg path{
+    fill: #f8f8f8;
+}
+.instagram svg{
+    height: 50px;
+    width: 50px;
+    background:none;
+}
+.instagram svg path{
+    fill: #f8f8f8;
+}
