@@ -1,3 +1,5 @@
+<?php
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +14,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+<header>
         <img src="images/stack-of-books.png" alt="logo stack-of-books">
         <h1>This is a header of this webpage</h1>
 
@@ -33,58 +35,10 @@
                 <svg class="nav-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M480 576L192 576C139 576 96 533 96 480L96 160C96 107 139 64 192 64L496 64C522.5 64 544 85.5 544 112L544 400C544 420.9 530.6 438.7 512 445.3L512 512C529.7 512 544 526.3 544 544C544 561.7 529.7 576 512 576L480 576zM192 448C174.3 448 160 462.3 160 480C160 497.7 174.3 512 192 512L448 512L448 448L192 448zM224 216C224 229.3 234.7 240 248 240L424 240C437.3 240 448 229.3 448 216C448 202.7 437.3 192 424 192L248 192C234.7 192 224 202.7 224 216zM248 288C234.7 288 224 298.7 224 312C224 325.3 234.7 336 248 336L424 336C437.3 336 448 325.3 448 312C448 298.7 437.3 288 424 288L248 288z"/></svg>
                 Blog</a>
             </li>
+            <li><a href="gallery.php">
+                <svg class="nav-img" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="none"><path d="M22 13.4375C22 17.2087 22 19.0944 20.8284 20.2659C19.6569 21.4375 17.7712 21.4375 14 21.4375H10C6.22876 21.4375 4.34315 21.4375 3.17157 20.2659C2 19.0944 2 17.2087 2 13.4375C2 9.66626 2 7.78065 3.17157 6.60907C4.34315 5.4375 6.22876 5.4375 10 5.4375H14C17.7712 5.4375 19.6569 5.4375 20.8284 6.60907C21.4921 7.27271 21.7798 8.16545 21.9045 9.50024"  stroke-width="1.5" stroke-linecap="round"/><path d="M3.98779 6C4.10022 5.06898 4.33494 4.42559 4.82498 3.93726C5.76553 3 7.27932 3 10.3069 3H13.5181C16.5457 3 18.0595 3 19 3.93726C19.4901 4.42559 19.7248 5.06898 19.8372 6"  stroke-width="1.5"/><circle cx="17.5" cy="9.9375" r="1.5"  stroke-width="1.5"/><path d="M2 13.9376L3.75159 12.405C4.66286 11.6077 6.03628 11.6534 6.89249 12.5096L11.1822 16.7993C11.8694 17.4866 12.9512 17.5803 13.7464 17.0214L14.0446 16.8119C15.1888 16.0077 16.7369 16.1009 17.7765 17.0365L21 19.9376"  stroke-width="1.5" stroke-linecap="round"/></svg>
+                Gallery</a>
+            </li>
         </ul>
     </header>
 
-    <aside>
-        Una volta che avrai<br>
-        Spiccato il volo, deciderai<br>
-        Sguardo verso il ciel saprai<br>
-        Lì casa il il cuore sentirai<br>
-            <br>
-        Una volta che avrai<br>
-        Spiccato il volo, deciderai<br>
-        Sguardo verso il ciel saprai<br>
-        Lì casa il il cuore sentirai<br>
-            <br>
-        Prenderà il primo volo<br>
-        Verso il sole il grande uccello<br>
-        Sorvolando il grande Monte Ceceri<br>
-        Rimpendo l’universo di stupore e gloria<br>
-            <br>
-        Una volta che avrai<br>
-        Spiccato il volo, deciderai<br>
-        Sguardo verso il ciel saprai<br>
-        Lì casa il il cuore sentirai<br>
-            <br>
-        L’uomo verràportato dalla sua creazione<br>
-        Come gli uccelli, verso il cielo… <br>
-        Rimpendo l’universo di stupore e gloria<br>
-            <br>
-        Una volta che avrai<br>
-        Spiccato il volo, deciderai<br>
-        Sguardo verso il ciel saprai<br>
-        Lì casa il il cuore sentirai<br>
-            <br>
-        Gloria! <br>
-    </aside>
-
-    <footer>
-        <div class="copyright">
-            Simon Dobes &copy; 2025
-        </div>
-        <div class="e_mail">
-            <a href="mailto:simondobes007@gmail.com">Contact me through e-mail</a>
-        </div>
-        <div class="socials">
-            <a class="instagram" href="https://www.instagram.com">
-                <svg fill="#000000" width="800px" height="800px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M20.445 5h-8.891A6.559 6.559 0 0 0 5 11.554v8.891A6.559 6.559 0 0 0 11.554 27h8.891a6.56 6.56 0 0 0 6.554-6.555v-8.891A6.557 6.557 0 0 0 20.445 5zm4.342 15.445a4.343 4.343 0 0 1-4.342 4.342h-8.891a4.341 4.341 0 0 1-4.341-4.342v-8.891a4.34 4.34 0 0 1 4.341-4.341h8.891a4.342 4.342 0 0 1 4.341 4.341l.001 8.891z"/><path d="M16 10.312c-3.138 0-5.688 2.551-5.688 5.688s2.551 5.688 5.688 5.688 5.688-2.551 5.688-5.688-2.55-5.688-5.688-5.688zm0 9.163a3.475 3.475 0 1 1-.001-6.95 3.475 3.475 0 0 1 .001 6.95zM21.7 8.991a1.363 1.363 0 1 1-1.364 1.364c0-.752.51-1.364 1.364-1.364z"/></svg>
-            </a>
-            <a class="facebook" href="https://www.facebook.com">
-                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M20 12.05C19.9813 10.5255 19.5273 9.03809 18.6915 7.76295C17.8557 6.48781 16.673 5.47804 15.2826 4.85257C13.8921 4.2271 12.3519 4.01198 10.8433 4.23253C9.33473 4.45309 7.92057 5.10013 6.7674 6.09748C5.61422 7.09482 4.77005 8.40092 4.3343 9.86195C3.89856 11.323 3.88938 12.8781 4.30786 14.3442C4.72634 15.8103 5.55504 17.1262 6.69637 18.1371C7.83769 19.148 9.24412 19.8117 10.75 20.05V14.38H8.75001V12.05H10.75V10.28C10.7037 9.86846 10.7483 9.45175 10.8807 9.05931C11.0131 8.66687 11.23 8.30827 11.5161 8.00882C11.8022 7.70936 12.1505 7.47635 12.5365 7.32624C12.9225 7.17612 13.3368 7.11255 13.75 7.14003C14.3498 7.14824 14.9482 7.20173 15.54 7.30003V9.30003H14.54C14.3676 9.27828 14.1924 9.29556 14.0276 9.35059C13.8627 9.40562 13.7123 9.49699 13.5875 9.61795C13.4627 9.73891 13.3667 9.88637 13.3066 10.0494C13.2464 10.2125 13.2237 10.387 13.24 10.56V12.07H15.46L15.1 14.4H13.25V20C15.1399 19.7011 16.8601 18.7347 18.0985 17.2761C19.3369 15.8175 20.0115 13.9634 20 12.05Z" fill="#000000"/></svg> 
-            </a>
-        </div>
-    </footer>
-</body>
-</html>

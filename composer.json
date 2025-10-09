@@ -1,0 +1,15 @@
+{
+    "name": "simikando/lkjdsfkljljkdfjkljkld",
+    "autoload": {
+        "psr-4": {
+            "Simikando\\Lkjdsfkljljkdfjkljkld\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SimonDobes",
+            "email": "simondobes007@gmail.com"
+        }
+    ],
+    "require": {}
+}

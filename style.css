@@ -41,7 +41,7 @@ ul li a{
 ul li a:hover,
 .nav-img:hover{
     color: #50db6f;
-    fill: #50db6f;
+    /* fill: #50db6f; */
 }
 .navigation{
     display: flex;
@@ -52,6 +52,7 @@ ul li a:hover,
 .nav-img{
     width: 50px;
     background:none;
+    stroke: #000000;
 }
 
 /* Aside text */
