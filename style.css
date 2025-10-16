@@ -65,6 +65,23 @@ aside{
     font-size: 18px;
 }
 
+aside{
+    list-style: none;
+}
+aside li{
+    background-color: #F7A5A5;
+}
+aside li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+aside li a:hover{
+    color: blue;
+}
+
 /* Footer and socials */
 footer{
     text-align: center;
